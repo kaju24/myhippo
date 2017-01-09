@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="hst:hosts" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:hosts">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:virtualhosts</sv:value>
   </sv:property>
@@ -11,10 +10,10 @@
       <sv:value>hst:virtualhostgroup</sv:value>
     </sv:property>
     <sv:property sv:name="hst:cmslocation" sv:type="String">
-      <sv:value>http://localhost:8080/cms</sv:value>
+      <sv:value>http://localhost:9081/cms</sv:value>
     </sv:property>
     <sv:property sv:name="hst:defaultport" sv:type="Long">
-      <sv:value>8080</sv:value>
+      <sv:value>9081</sv:value>
     </sv:property>
     <sv:node sv:name="localhost">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
